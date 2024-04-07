@@ -1,0 +1,30 @@
+.pokedex {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.pokemon-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.pokemon-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.pokemon-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pokemon-type {
+  font-size: 16px;
+}
+
+.pokemon-evolution {
+  font-size: 16px;
+  color: #666;
+}
